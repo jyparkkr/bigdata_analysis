@@ -20,8 +20,8 @@
     Find right k value for the given data. For distance measure, use Euclidean distance. 
     Implement the initialization of clusters for k-Means using a sequential algorithm in **plain Python and not Spark**. 
     Instead of picking the first point at random, however, use the first point in the dataset, which has already been randomized. 
-    Then implement k-Means algorithm by using **Spark**. 
-    After run, your code should **print the average diameter** of the given number-of-cluster (k_value in the command-line).
+    Then implement k-Means algorithm by using __Spark__. 
+    After run, your code should __print the average diameter__ of the given number-of-cluster (k_value in the command-line).
 ### (hw2_3b.py)Recommendation Systems - Implement collaborative filtering
     Implement user-based and item-based collaborative filtering and run it on a real movie dataset.
     The rating file consists of about 90,000 lines of user ID, movie ID, rating(by 1-5) stars, timestamp.
