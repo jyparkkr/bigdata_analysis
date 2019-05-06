@@ -35,7 +35,30 @@
     or even winning techniques used in the NetFlix Challenge)
 
 ## HW3
-
+### (hw3_1.py) Link Analysis - Implement the PageRank algorithm using Spark.
+    The graph is randomly generated and has 1000 nodes and about 8000 edges with no dead ends. 
+    For each row, the left page id is the source and the right page id the destination. 
+    If there are duplicate edges from one page to another, treat them as the same.
+    Set β = 0.9 and start from the vector v initialized as all 1’s divided by the number of pages. 
+    After run, your code (hw3_1.py) should print the top-10 page ids with the highest PageRank scores in v. 
+### (hw3_2.py) Link Analysis - Implement the HITs algorithm using Spark
+    Implement the HITs algorithm starting from h initialized as all 1’s. 
+    Perform 50 iterations, return the top-10 page ids with the highest scores.
 
 ## HW4
-  
+### (hw4_1.py) Large-Scale Machine Learning -  Implement the gradient descent SVM algorithm.
+    From 
+    features.txt:Contains the feature vectors of 6K data points used for the training data. Each line is a feature vector of 122 components
+    labels.txt: Contains the corresponding labels of the 6K data points in features.txt, 
+    implement the batch gradient descent approach where for each round, all the training examples are considered as a batch.
+    For selecting the test data, use k-fold cross validation.
+    Finally, tune the C and η parameters for better accuracy.
+    
+### (hw4_2.py) Mining Data Streams - Implement the DGIM algorithm.
+    The stream is randomly generated and contains a sequence of 10 million 0’s and 1’s.
+    The goal is to estimate the number of 1’s in the last k bits.
+    
+
+
+
+
