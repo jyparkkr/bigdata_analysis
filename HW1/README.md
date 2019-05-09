@@ -5,7 +5,9 @@
     From graph of friend in social network, discover potential friends who have many mutual friends. 
 
     Each line is in the following format
+    
     <User><TAB><Friends>
+    
     Where <User> is an integer ID corresponding to user, <TAB> is tab character, and <Friends> is a comma-separated list of IDs of friends.
 
     We are interested in finding pairs of users who are 1) not friends with each other, but 2) have many common friends.
