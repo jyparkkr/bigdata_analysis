@@ -1,4 +1,3 @@
-# This is assignment from KAIST EE412 Foundation of Big Data Analytics, Fall 2018 
 ## HW1
     HW1 is about basic usage and application of pyspark.
 ### (hw1_1.py) MapReduce and Spark
